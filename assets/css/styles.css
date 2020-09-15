@@ -1,0 +1,275 @@
+@font-face {
+	font-family: 'Westhouse Regular';
+	src: url(../../assets/fonts/Westhouse.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+  color: rgb(255,255,255);
+  font-family: Merriweather, sans-serif;
+  background-color: #554d47;
+  margin: 0;
+  height: 100%;
+  font-size: 14px;
+}
+
+p {
+  line-height: 200%;
+  font-size: 14px;
+}
+
+/* navigation */
+
+.navigation-clean-button {
+  background: #fff;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #333;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-family: 'Westhouse Regular';
+}
+
+.dropdown-menu {
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 30px;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+
+.dropdown-item:hover {
+  color: #b1c613;
+}
+
+.dropdown-toggle::after { 
+  display:none; 
+}
+
+
+#tarifs {
+    -webkit-transform:rotate(-10deg); 
+    -moz-transform:rotate(-10deg);
+    -o-transform:rotate(-10deg); 
+    -ms-transform:rotate(-10deg);
+    transform:rotate(-10deg);
+    color: #56a8a4;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+@media (max-width:1200px) {
+  #tarifs {
+    -webkit-transform:rotate(-10deg); 
+    -moz-transform:rotate(-10deg);
+    -o-transform:rotate(-10deg); 
+    -ms-transform:rotate(-10deg);
+    transform:rotate(-10deg);
+    color: #56a8a4;
+    margin-top: -16px;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+  }
+}
+
+#tarif {
+  -webkit-transform:rotate(-10deg); 
+  -moz-transform:rotate(-10deg);
+  -o-transform:rotate(-10deg); 
+  -ms-transform:rotate(-10deg);
+  transform:rotate(-10deg);
+  color: #56a8a4;
+  position: absolute;
+  top: 48px;
+  right: 375px;
+}
+
+@media (max-width:1200px) {
+  #tarif {
+    -webkit-transform:rotate(-10deg); 
+    -moz-transform:rotate(-10deg);
+    -o-transform:rotate(-10deg); 
+    -ms-transform:rotate(-10deg);
+    transform:rotate(-10deg);
+    color: #56a8a4;
+    margin-top: -16px;
+    position: absolute;
+    top: 230px;
+    right: 17px;
+  }
+}
+
+@media (min-width:768px) {
+  .navigation-clean-button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.navigation-clean-button.navbar-light .navbar-nav a.active, .navigation-clean-button.navbar-light .navbar-nav a.active:focus, .navigation-clean-button.navbar-light .navbar-nav a.active:hover {
+  color: #b1c613;
+  pointer-events: none;
+}
+
+.navigation-clean-button.navbar .navbar-nav .nav-link {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navigation-clean-button.navbar-light .navbar-nav .nav-link {
+  color: #554d47;
+}
+
+.navigation-clean-button.navbar-light .navbar-nav .nav-link:focus, .navigation-clean-button.navbar-light .navbar-nav .nav-link:hover {
+  color: #b1c613;
+  background-color: transparent;
+}
+
+#logo {
+  padding-left: 40px;
+  height: 40px;
+}
+
+.img-fluid.logo {
+  height: 300px;
+}
+
+/* citation */
+
+.mb-0{
+  font-size: 16px;
+}
+
+.blockquote-footer {
+  background-color: rgb(85,77,71);
+  color: #fff;
+}
+
+.citation {
+  font-size: 16px;
+}
+
+.bottom {
+  margin-bottom: 30px;
+}
+
+.bottom1 {
+  margin-bottom: 80px;
+}
+
+.bottom2 {
+  margin-bottom: 15px;
+}
+
+/* div */
+
+.div {
+  min-height: calc(100vh - 215px);
+}
+
+/* container */
+
+.container-1 {
+  margin-top: 100px;
+}
+
+/* contact */
+
+.col-12.text-center.contact {
+  margin-top: 100px;
+}
+
+.fa.fa-phone {
+  font-size: 25px;
+}
+
+.fa.fa-envelope-o {
+  font-size: 25px;
+}
+
+form {
+  width: 300px;
+}
+
+.btn.btn-link {
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.btn.btn-link:hover {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+/* footer */
+
+footer {
+  height: 122px;
+  background-color: #F2F2F2;
+  color: #999999;
+}
+
+.footer {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #999999;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #56a8a4;
+}
+
+/* Mentions */
+
+.infos {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: #554d47;
+  margin-top: -10%;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: "Merriweather";
+  font-weight: bold;
+}
+
+.txt {
+  padding-bottom: 40px;
+  color: #554d47;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* Présentation */
+
+.virginie {
+  float: left;
+  margin-right: 20px;
+}
